@@ -1,0 +1,26 @@
+* **********************************
+* Network   (KNETWK): BK
+* Station   (KSTNM) : WDC
+* Component (KCMPNM): LHN
+* Location  (KHOLE) : 00
+* Start             : 1992,261,19:23:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  40.579880
+* Longitude         : -122.541130
+* Elevation         :   268.3
+* Depth             : 268.3
+* Dip               :   0.0
+* Azimuth           :   0.0
+* Instrument Comment: N/A
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 5
+-0.0370  0.0370
+-0.0370  -0.0370
+-118.7520  423.4880
+-118.7520  -423.4880
+-251.3270  0.0000
+CONSTANT 1.223677e+17

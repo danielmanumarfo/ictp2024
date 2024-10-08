@@ -1,0 +1,26 @@
+#!/bin/bash
+
+file1=./proc/cut_2006148031208_BK_WDC..M.LHZ_d
+sac << EOF
+echo on
+oapf standard wdc.apf
+r $file1
+grid on
+ppk
+capf
+q
+EOF
+
+
+file2=./proc/cut_2006148031208_US_DUG..M.LHZ_d
+sac << EOF
+echo on
+oapf standard dug.apf
+r $file2
+grid on
+ppk
+capf
+q
+EOF
+
+
