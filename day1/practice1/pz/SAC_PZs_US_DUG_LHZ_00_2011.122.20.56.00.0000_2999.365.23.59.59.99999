@@ -1,0 +1,52 @@
+* **********************************
+* Network   (KNETWK): US
+* Station   (KSTNM) : DUG
+* Component (KCMPNM): LHZ
+* Location  (KHOLE) : 00
+* Start             : 1993,049,00:00:00
+* End               : 2999,365,23:59:59
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  40.195000
+* Longitude         : -112.813300
+* Elevation         :  1477.0
+* Depth             : 1477.0
+* Dip               : -90.0
+* Azimuth           :   0.0
+* Instrument Comment: STS2-I=80442=Gen=Q330SR=0746
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 5
+-0.0370  0.0370
+-0.0370  -0.0370
+-251.3270  0.0000
+-118.6340  423.0650
+-118.6340  -423.0650
+CONSTANT 3.053832e+16
+* **********************************
+* Network   (KNETWK): US
+* Station   (KSTNM) : DUG
+* Component (KCMPNM): LHZ
+* Location  (KHOLE) : 00
+* Start             : 1993,049,00:00:00
+* End               : 2999,365,23:59:59
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  40.195000
+* Longitude         : -112.813300
+* Elevation         :  1477.0
+* Depth             : 1477.0
+* Dip               : -90.0
+* Azimuth           :   0.0
+* Instrument Comment: STS2-I=80442=Gen=Q330SR=0746
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 5
+-0.0370  0.0370
+-0.0370  -0.0370
+-251.3270  0.0000
+-118.6340  423.0650
+-118.6340  -423.0650
+CONSTANT 3.053832e+16

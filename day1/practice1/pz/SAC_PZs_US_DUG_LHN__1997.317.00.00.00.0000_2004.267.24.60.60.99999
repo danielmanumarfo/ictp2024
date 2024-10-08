@@ -1,0 +1,54 @@
+* **********************************
+* Network   (KNETWK): US
+* Station   (KSTNM) : DUG
+* Component (KCMPNM): LHN
+* Location  (KHOLE) : 
+* Start             : 1993,049,00:00:00
+* End               : 2999,365,23:59:59
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  40.195000
+* Longitude         : -112.813300
+* Elevation         :  1477.0
+* Depth             : 1477.0
+* Dip               :   0.0
+* Azimuth           :   0.0
+* Instrument Comment: CMG3H-N=H3156=Q680N=910511
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 6
+-0.0314  0.0000
+-0.1979  0.0000
+-201.1000  0.0000
+-697.4000  0.0000
+-754.0000  0.0000
+-1056.0000  0.0000
+CONSTANT 7.246738e+19
+* **********************************
+* Network   (KNETWK): US
+* Station   (KSTNM) : DUG
+* Component (KCMPNM): LHN
+* Location  (KHOLE) : 
+* Start             : 1993,049,00:00:00
+* End               : 2999,365,23:59:59
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  40.195000
+* Longitude         : -112.813300
+* Elevation         :  1477.0
+* Depth             : 1477.0
+* Dip               :   0.0
+* Azimuth           :   0.0
+* Instrument Comment: CMG3H-N=H3156=Q680N=910511
+* Channel Flag      : CG
+* **********************************
+ZEROS 3
+POLES 6
+-0.0314  0.0000
+-0.1979  0.0000
+-201.1000  0.0000
+-697.4000  0.0000
+-754.0000  0.0000
+-1056.0000  0.0000
+CONSTANT 7.246738e+19
