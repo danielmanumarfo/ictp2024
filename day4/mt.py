@@ -120,7 +120,7 @@ def plotrhophi(rho,phi,period,title = 'FWD response',myfmt = 'ro-'):
 
 def plotrhophi_eb(rho,phi,rho_err,phi_err,rho2,phi2,period,title = 'FWD response'):
     
-    plt.figure(figsize=(6,12))
+    fig = plt.figure(figsize=(6,12))
     appres = plt.subplot(211)
     plt.errorbar(period,rho,yerr = rho_err, color = 'black',fmt = 'o',label = 'observed')
     plt.plot(period,rho2,'--r',label = 'modelled')
@@ -130,7 +130,7 @@ def plotrhophi_eb(rho,phi,rho_err,phi_err,rho2,phi2,period,title = 'FWD response
     plt.xscale('log')
     plt.yscale('log')
     plt.ylim((0.1,10000))
-    plt.set_figheight(2)
+    fig.set_figheight(2)
     plt.grid()
     #plt.grid(b=True,which='both')
     plt.title(title+': App. resistivity & phase')
